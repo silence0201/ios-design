@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E85373A41D7314CE0035AAC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E85373A31D7314CE0035AAC1 /* main.m */; };
+		E85373AE1D7315300035AAC1 /* Attack.m in Sources */ = {isa = PBXBuildFile; fileRef = E85373AD1D7315300035AAC1 /* Attack.m */; };
+		E85373B11D7315470035AAC1 /* WaterAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = E85373B01D7315470035AAC1 /* WaterAttack.m */; };
+		E85373B41D7315530035AAC1 /* FireAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = E85373B31D7315530035AAC1 /* FireAttack.m */; };
+		E85373B71D7315620035AAC1 /* SoliderAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = E85373B61D7315620035AAC1 /* SoliderAttack.m */; };
+		E85373BD1D7317C80035AAC1 /* AttackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E85373BC1D7317C80035AAC1 /* AttackHandler.m */; };
+		E85373C01D73188A0035AAC1 /* WaterAttackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E85373BF1D73188A0035AAC1 /* WaterAttackHandler.m */; };
+		E85373C31D73198C0035AAC1 /* FireAttackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E85373C21D73198C0035AAC1 /* FireAttackHandler.m */; };
+		E85373C71D731A410035AAC1 /* Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = E85373C61D731A410035AAC1 /* Avatar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E853739E1D7314CE0035AAC1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E85373A01D7314CE0035AAC1 /* ResponsibliltyChainDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ResponsibliltyChainDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85373A31D7314CE0035AAC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E85373AC1D7315300035AAC1 /* Attack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attack.h; sourceTree = "<group>"; };
+		E85373AD1D7315300035AAC1 /* Attack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attack.m; sourceTree = "<group>"; };
+		E85373AF1D7315470035AAC1 /* WaterAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterAttack.h; sourceTree = "<group>"; };
+		E85373B01D7315470035AAC1 /* WaterAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterAttack.m; sourceTree = "<group>"; };
+		E85373B21D7315530035AAC1 /* FireAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireAttack.h; sourceTree = "<group>"; };
+		E85373B31D7315530035AAC1 /* FireAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireAttack.m; sourceTree = "<group>"; };
+		E85373B51D7315620035AAC1 /* SoliderAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoliderAttack.h; sourceTree = "<group>"; };
+		E85373B61D7315620035AAC1 /* SoliderAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoliderAttack.m; sourceTree = "<group>"; };
+		E85373BB1D7317C80035AAC1 /* AttackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttackHandler.h; sourceTree = "<group>"; };
+		E85373BC1D7317C80035AAC1 /* AttackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttackHandler.m; sourceTree = "<group>"; };
+		E85373BE1D73188A0035AAC1 /* WaterAttackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterAttackHandler.h; sourceTree = "<group>"; };
+		E85373BF1D73188A0035AAC1 /* WaterAttackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterAttackHandler.m; sourceTree = "<group>"; };
+		E85373C11D73198C0035AAC1 /* FireAttackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireAttackHandler.h; sourceTree = "<group>"; };
+		E85373C21D73198C0035AAC1 /* FireAttackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireAttackHandler.m; sourceTree = "<group>"; };
+		E85373C51D731A410035AAC1 /* Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
+		E85373C61D731A410035AAC1 /* Avatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Avatar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E853739D1D7314CE0035AAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E85373971D7314CE0035AAC1 = {
+			isa = PBXGroup;
+			children = (
+				E85373A21D7314CE0035AAC1 /* ResponsibliltyChainDemo */,
+				E85373A11D7314CE0035AAC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E85373A11D7314CE0035AAC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E85373A01D7314CE0035AAC1 /* ResponsibliltyChainDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E85373A21D7314CE0035AAC1 /* ResponsibliltyChainDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E85373AB1D7315000035AAC1 /* AttackHandlers */,
+				E85373AA1D7314D80035AAC1 /* Attacks */,
+				E85373A31D7314CE0035AAC1 /* main.m */,
+			);
+			path = ResponsibliltyChainDemo;
+			sourceTree = "<group>";
+		};
+		E85373AA1D7314D80035AAC1 /* Attacks */ = {
+			isa = PBXGroup;
+			children = (
+				E85373AC1D7315300035AAC1 /* Attack.h */,
+				E85373AD1D7315300035AAC1 /* Attack.m */,
+				E85373AF1D7315470035AAC1 /* WaterAttack.h */,
+				E85373B01D7315470035AAC1 /* WaterAttack.m */,
+				E85373B21D7315530035AAC1 /* FireAttack.h */,
+				E85373B31D7315530035AAC1 /* FireAttack.m */,
+				E85373B51D7315620035AAC1 /* SoliderAttack.h */,
+				E85373B61D7315620035AAC1 /* SoliderAttack.m */,
+			);
+			name = Attacks;
+			sourceTree = "<group>";
+		};
+		E85373AB1D7315000035AAC1 /* AttackHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				E85373BB1D7317C80035AAC1 /* AttackHandler.h */,
+				E85373BC1D7317C80035AAC1 /* AttackHandler.m */,
+				E85373BE1D73188A0035AAC1 /* WaterAttackHandler.h */,
+				E85373BF1D73188A0035AAC1 /* WaterAttackHandler.m */,
+				E85373C11D73198C0035AAC1 /* FireAttackHandler.h */,
+				E85373C21D73198C0035AAC1 /* FireAttackHandler.m */,
+				E85373C51D731A410035AAC1 /* Avatar.h */,
+				E85373C61D731A410035AAC1 /* Avatar.m */,
+			);
+			name = AttackHandlers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E853739F1D7314CE0035AAC1 /* ResponsibliltyChainDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85373A71D7314CE0035AAC1 /* Build configuration list for PBXNativeTarget "ResponsibliltyChainDemo" */;
+			buildPhases = (
+				E853739C1D7314CE0035AAC1 /* Sources */,
+				E853739D1D7314CE0035AAC1 /* Frameworks */,
+				E853739E1D7314CE0035AAC1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResponsibliltyChainDemo;
+			productName = ResponsibliltyChainDemo;
+			productReference = E85373A01D7314CE0035AAC1 /* ResponsibliltyChainDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E85373981D7314CE0035AAC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = silence;
+				TargetAttributes = {
+					E853739F1D7314CE0035AAC1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E853739B1D7314CE0035AAC1 /* Build configuration list for PBXProject "ResponsibliltyChainDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E85373971D7314CE0035AAC1;
+			productRefGroup = E85373A11D7314CE0035AAC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E853739F1D7314CE0035AAC1 /* ResponsibliltyChainDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E853739C1D7314CE0035AAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85373C71D731A410035AAC1 /* Avatar.m in Sources */,
+				E85373A41D7314CE0035AAC1 /* main.m in Sources */,
+				E85373B41D7315530035AAC1 /* FireAttack.m in Sources */,
+				E85373C31D73198C0035AAC1 /* FireAttackHandler.m in Sources */,
+				E85373B11D7315470035AAC1 /* WaterAttack.m in Sources */,
+				E85373C01D73188A0035AAC1 /* WaterAttackHandler.m in Sources */,
+				E85373AE1D7315300035AAC1 /* Attack.m in Sources */,
+				E85373BD1D7317C80035AAC1 /* AttackHandler.m in Sources */,
+				E85373B71D7315620035AAC1 /* SoliderAttack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E85373A51D7314CE0035AAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E85373A61D7314CE0035AAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E85373A81D7314CE0035AAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E85373A91D7314CE0035AAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E853739B1D7314CE0035AAC1 /* Build configuration list for PBXProject "ResponsibliltyChainDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85373A51D7314CE0035AAC1 /* Debug */,
+				E85373A61D7314CE0035AAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85373A71D7314CE0035AAC1 /* Build configuration list for PBXNativeTarget "ResponsibliltyChainDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85373A81D7314CE0035AAC1 /* Debug */,
+				E85373A91D7314CE0035AAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E85373981D7314CE0035AAC1 /* Project object */;
+}
