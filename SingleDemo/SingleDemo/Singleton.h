@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Singleton : NSObject
+@interface Singleton : NSObject<NSCopying>
 
 +(instancetype)shareInstance ;
 

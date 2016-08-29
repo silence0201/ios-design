@@ -20,4 +20,17 @@ static Singleton *singleton = nil ;
     return singleton ;
 }
 
+// 严格化
++ (instancetype)allocWithZone:(struct _NSZone *)zone{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        singleton = [super allocWithZone:zone] ;
+    });
+    return singleton ;
+}
+
+- (id)copyWithZone:(NSZone *)zone{
+    return singleton ;
+}
+
 @end
