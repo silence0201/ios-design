@@ -1,14 +1,14 @@
 //
-//  NameIterator.m
+//  NumberIterator.m
 //  Iterator
 //
 //  Created by 杨晴贺 on 8/25/16.
 //  Copyright © 2016 silence. All rights reserved.
 //
 
-#import "NameIterator.h"
+#import "NumberIterator.h"
 
-@implementation NameIterator
+@implementation NumberIterator
 
 - (instancetype)init{
     if (self = [super init]) {

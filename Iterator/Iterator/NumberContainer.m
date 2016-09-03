@@ -7,12 +7,12 @@
 //
 
 #import "NumberContainer.h"
-#import "NameIterator.h"
+#import "NumberIterator.h"
 
 @implementation NumberContainer
 
 - (id<Iterator>)getIterator{
-    NameIterator *iterator = [[NameIterator alloc]init] ;
+    NumberIterator *iterator = [[NumberIterator alloc]init] ;
     iterator.array = self.array ;
     return iterator ;
 }
