@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E859410B1D7AB78100612600 /* NumberIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = E859410A1D7AB78100612600 /* NumberIterator.m */; };
 		E8A9F0EB1D6F210C00738C0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A9F0EA1D6F210C00738C0E /* main.m */; };
-		E8A9F0F51D6F220600738C0E /* NameIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A9F0F41D6F220600738C0E /* NameIterator.m */; };
 		E8A9F0F81D6F22F300738C0E /* NumberContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A9F0F71D6F22F300738C0E /* NumberContainer.m */; };
 /* End PBXBuildFile section */
 
@@ -25,12 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E85941091D7AB78100612600 /* NumberIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberIterator.h; sourceTree = "<group>"; };
+		E859410A1D7AB78100612600 /* NumberIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberIterator.m; sourceTree = "<group>"; };
 		E8A9F0E71D6F210C00738C0E /* Iterator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Iterator; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A9F0EA1D6F210C00738C0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8A9F0F11D6F213B00738C0E /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
 		E8A9F0F21D6F21B100738C0E /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
-		E8A9F0F31D6F220600738C0E /* NameIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameIterator.h; sourceTree = "<group>"; };
-		E8A9F0F41D6F220600738C0E /* NameIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameIterator.m; sourceTree = "<group>"; };
 		E8A9F0F61D6F22F300738C0E /* NumberContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberContainer.h; sourceTree = "<group>"; };
 		E8A9F0F71D6F22F300738C0E /* NumberContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,11 +65,11 @@
 		E8A9F0E91D6F210C00738C0E /* Iterator */ = {
 			isa = PBXGroup;
 			children = (
+				E85941091D7AB78100612600 /* NumberIterator.h */,
+				E859410A1D7AB78100612600 /* NumberIterator.m */,
 				E8A9F0EA1D6F210C00738C0E /* main.m */,
 				E8A9F0F11D6F213B00738C0E /* Iterator.h */,
 				E8A9F0F21D6F21B100738C0E /* Container.h */,
-				E8A9F0F31D6F220600738C0E /* NameIterator.h */,
-				E8A9F0F41D6F220600738C0E /* NameIterator.m */,
 				E8A9F0F61D6F22F300738C0E /* NumberContainer.h */,
 				E8A9F0F71D6F22F300738C0E /* NumberContainer.m */,
 			);
@@ -133,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A9F0F81D6F22F300738C0E /* NumberContainer.m in Sources */,
-				E8A9F0F51D6F220600738C0E /* NameIterator.m in Sources */,
+				E859410B1D7AB78100612600 /* NumberIterator.m in Sources */,
 				E8A9F0EB1D6F210C00738C0E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +255,7 @@
 				E8A9F0F01D6F210C00738C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -29,7 +29,12 @@ void iter3(){
     NSArray *array = @[@"1",@"2",@"3"] ;
     [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSLog(@"%@",obj) ;
-    }]
+    }] ;
+}
+
+void iter4(){
+    NSArray *array = @[@"1",@"2",@"3"] ;
+    [array makeObjectsPerformSelector:@selector(description)] ;
 }
 
 int main(int argc, const char * argv[]) {
@@ -41,6 +46,7 @@ int main(int argc, const char * argv[]) {
         while ([it hasNext]) {
             NSLog(@"%@",[it next]) ;
         }
+        
     }
     return 0;
 }
